@@ -1,0 +1,11 @@
+0 _ _ * accept
+0 * _ r 1
+1 _ _ * reject
+1 * _ r 2
+2 _ _ * accept
+2 * _ r 1
+accept * Д r accept2
+accept2 * а * halt-accept
+reject _ Н r reject2
+reject2 * е r reject3
+reject3 * т * halt-reject
